@@ -3,9 +3,10 @@ import React from 'react'
 export default function ProductScreen() {
     return (
         <div>
-           <div className="row">
+            <div>Product Screen</div>
+           {/* <div className="row">
                <div className="col-2"> 
-
+                    
                </div>
                <div className="col-1"> 
                
@@ -13,7 +14,7 @@ export default function ProductScreen() {
                <div className="col-1"> 
                
                </div>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -95,7 +95,7 @@ img.medium {
 .card-body {
   padding: 1rem;
 }
-.card-body > *{
+.card-body > * {
   margin-bottom: 0.5rem;
 }
 .price {

@@ -6,6 +6,7 @@ import ProductScreen from './screens/ProductScreen';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,8 +26,8 @@ function App() {
                 <Route path='/' component={HomeScreen} exact></Route>   
               </main> 
               <footer className="row center">All Rights Reserved</footer> 
-          </div>
-      </BrowserRouter>
+      </div>
+    </BrowserRouter>
   );
 }
 
