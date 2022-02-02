@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 
@@ -22,8 +22,10 @@ function App() {
   
               </header>
               <main>
-                <Route path='/product/:id' component={ProductScreen}></Route>
-                <Route path='/' component={HomeScreen} exact></Route>   
+                <Routes>
+                  <Route path='/' element={<HomeScreen />} exact={true}></Route>   
+                  <Route path='/product/:id' component={ProductScreen}></Route>
+                </Routes>
               </main> 
               <footer className="row center">All Rights Reserved</footer> 
       </div>
